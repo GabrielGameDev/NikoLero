@@ -1,6 +1,8 @@
 using System.Collections;
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Video;
 
 public class Nikolero : MonoBehaviour
 {
@@ -15,11 +17,21 @@ public class Nikolero : MonoBehaviour
 	public Transform commentSection;
 	public TMP_Text commentPrefab;
 
-	public string[] userNames;
-	public string[] comments;
+	public List<string> userNames;
+	public List<string> comments;
+
+	public VideoPlayer videoPlayer;
+	public AudioSource audioSource;
+
+	private void Start()
+	{
+		videoPlayer.frame = Random.Range(0, 187);
+		videoPlayer.Pause();
+	}
 
 	public void GenerateSentence()
-	{
+	{		
+
 		config.SetActive(false);
 		string subject = subjectDrop.options[subjectDrop.value].text;
 		string verb = verbDrop.options[verbDrop.value].text;
@@ -30,6 +42,8 @@ public class Nikolero : MonoBehaviour
 		resultText.text = sentence;
 
 		resultText.transform.parent.gameObject.SetActive(true);
+
+		audioSource.Play();
 
 		StartCoroutine(GeneratingComments());
 	}
@@ -50,8 +64,12 @@ public class Nikolero : MonoBehaviour
 
 		for (int i = 0; i < 20; i++)
 		{
-			string userName = userNames[Random.Range(0, userNames.Length)];
-			string comment = comments[Random.Range(0, comments.Length)];
+			int randomIndex = Random.Range(0, userNames.Count);
+			string userName = userNames[randomIndex];
+			userNames.RemoveAt(randomIndex);
+			int commentIndex = Random.Range(0, comments.Count);
+			string comment = comments[commentIndex];
+			comments.RemoveAt(commentIndex);
 			TMP_Text commentInstance = Instantiate(commentPrefab, commentSection);
 			commentInstance.text = $"<b><color=green>@{userName}:</color></b> <color=white>{comment}</color>";
 			yield return new WaitForSeconds(Random.Range(0.5f,1f));
