@@ -6,6 +6,7 @@ using UnityEngine.Video;
 
 public class Nikolero : MonoBehaviour
 {
+	public string videoFileName = "nikola.mp4";
 	public GameObject config;
 	public TMP_Dropdown subjectDrop;
 	public TMP_Dropdown verbDrop;
@@ -23,8 +24,11 @@ public class Nikolero : MonoBehaviour
 	public VideoPlayer videoPlayer;
 	public AudioSource audioSource;
 
+
 	private void Start()
 	{
+		videoPlayer.url = System.IO.Path.Combine(Application.streamingAssetsPath, videoFileName);
+		videoPlayer.Prepare();
 		videoPlayer.frame = Random.Range(0, 187);
 		videoPlayer.Pause();
 	}
