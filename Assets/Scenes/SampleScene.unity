@@ -1608,6 +1608,30 @@ MonoBehaviour:
     - m_Text: engravidou
       m_Image: {fileID: 0}
       m_Color: {r: 0.12941177, g: 0.13725491, b: 0.15686275, a: 1}
+    - m_Text: depilou
+      m_Image: {fileID: 0}
+      m_Color: {r: 0.12941177, g: 0.13725491, b: 0.15686275, a: 1}
+    - m_Text: criou
+      m_Image: {fileID: 0}
+      m_Color: {r: 0.12941177, g: 0.13725491, b: 0.15686275, a: 1}
+    - m_Text: fotografou
+      m_Image: {fileID: 0}
+      m_Color: {r: 0.12941177, g: 0.13725491, b: 0.15686275, a: 1}
+    - m_Text: espalhou
+      m_Image: {fileID: 0}
+      m_Color: {r: 0.12941177, g: 0.13725491, b: 0.15686275, a: 1}
+    - m_Text: compartilhou
+      m_Image: {fileID: 0}
+      m_Color: {r: 0.12941177, g: 0.13725491, b: 0.15686275, a: 1}
+    - m_Text: comprou
+      m_Image: {fileID: 0}
+      m_Color: {r: 0.12941177, g: 0.13725491, b: 0.15686275, a: 1}
+    - m_Text: aumentou
+      m_Image: {fileID: 0}
+      m_Color: {r: 0.12941177, g: 0.13725491, b: 0.15686275, a: 1}
+    - m_Text: reduziu
+      m_Image: {fileID: 0}
+      m_Color: {r: 0.12941177, g: 0.13725491, b: 0.15686275, a: 1}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2559,6 +2583,18 @@ MonoBehaviour:
       m_Image: {fileID: 0}
       m_Color: {r: 0.12941177, g: 0.13725491, b: 0.15686275, a: 1}
     - m_Text: O STF
+      m_Image: {fileID: 0}
+      m_Color: {r: 0.12941177, g: 0.13725491, b: 0.15686275, a: 1}
+    - m_Text: Os Comunistas
+      m_Image: {fileID: 0}
+      m_Color: {r: 0.12941177, g: 0.13725491, b: 0.15686275, a: 1}
+    - m_Text: A China
+      m_Image: {fileID: 0}
+      m_Color: {r: 0.12941177, g: 0.13725491, b: 0.15686275, a: 1}
+    - m_Text: O PT
+      m_Image: {fileID: 0}
+      m_Color: {r: 0.12941177, g: 0.13725491, b: 0.15686275, a: 1}
+    - m_Text: Os Ateus
       m_Image: {fileID: 0}
       m_Color: {r: 0.12941177, g: 0.13725491, b: 0.15686275, a: 1}
   m_OnValueChanged:
@@ -5539,7 +5575,7 @@ MonoBehaviour:
     - m_Text: a sua camisa do Corinthians
       m_Image: {fileID: 0}
       m_Color: {r: 0.12941177, g: 0.13725491, b: 0.15686275, a: 1}
-    - m_Text: o meu Celtinha
+    - m_Text: o seu Celtinha
       m_Image: {fileID: 0}
       m_Color: {r: 0.12941177, g: 0.13725491, b: 0.15686275, a: 1}
     - m_Text: "o hist\xF3rico do seu navegador"
@@ -5600,6 +5636,18 @@ MonoBehaviour:
       m_Image: {fileID: 0}
       m_Color: {r: 0.12941177, g: 0.13725491, b: 0.15686275, a: 1}
     - m_Text: "a Constitui\xE7\xE3o"
+      m_Image: {fileID: 0}
+      m_Color: {r: 0.12941177, g: 0.13725491, b: 0.15686275, a: 1}
+    - m_Text: sua retrospectiva do spotify
+      m_Image: {fileID: 0}
+      m_Color: {r: 0.12941177, g: 0.13725491, b: 0.15686275, a: 1}
+    - m_Text: "seu hist\xF3rico do xvideos"
+      m_Image: {fileID: 0}
+      m_Color: {r: 0.12941177, g: 0.13725491, b: 0.15686275, a: 1}
+    - m_Text: sua fatura do cartao de credito
+      m_Image: {fileID: 0}
+      m_Color: {r: 0.12941177, g: 0.13725491, b: 0.15686275, a: 1}
+    - m_Text: "Limite do seu cart\xE3o"
       m_Image: {fileID: 0}
       m_Color: {r: 0.12941177, g: 0.13725491, b: 0.15686275, a: 1}
   m_OnValueChanged:
@@ -7988,6 +8036,33 @@ MonoBehaviour:
       m_Image: {fileID: 0}
       m_Color: {r: 0.12941177, g: 0.13725491, b: 0.15686275, a: 1}
     - m_Text: "para lan\xE7ar curso de Marketing Digital"
+      m_Image: {fileID: 0}
+      m_Color: {r: 0.12941177, g: 0.13725491, b: 0.15686275, a: 1}
+    - m_Text: para distribuir mamadeira de piroca
+      m_Image: {fileID: 0}
+      m_Color: {r: 0.12941177, g: 0.13725491, b: 0.15686275, a: 1}
+    - m_Text: para criar o kit gay nas escolas
+      m_Image: {fileID: 0}
+      m_Color: {r: 0.12941177, g: 0.13725491, b: 0.15686275, a: 1}
+    - m_Text: para acabar com o seu emprego
+      m_Image: {fileID: 0}
+      m_Color: {r: 0.12941177, g: 0.13725491, b: 0.15686275, a: 1}
+    - m_Text: para fazer lobby no congresso
+      m_Image: {fileID: 0}
+      m_Color: {r: 0.12941177, g: 0.13725491, b: 0.15686275, a: 1}
+    - m_Text: para prender o Bolsonaro
+      m_Image: {fileID: 0}
+      m_Color: {r: 0.12941177, g: 0.13725491, b: 0.15686275, a: 1}
+    - m_Text: "para acabar com a liberdade de express\xE3o"
+      m_Image: {fileID: 0}
+      m_Color: {r: 0.12941177, g: 0.13725491, b: 0.15686275, a: 1}
+    - m_Text: "para manipular voc\xEA"
+      m_Image: {fileID: 0}
+      m_Color: {r: 0.12941177, g: 0.13725491, b: 0.15686275, a: 1}
+    - m_Text: para espionar sua amante
+      m_Image: {fileID: 0}
+      m_Color: {r: 0.12941177, g: 0.13725491, b: 0.15686275, a: 1}
+    - m_Text: para revelar sua sexualidade
       m_Image: {fileID: 0}
       m_Color: {r: 0.12941177, g: 0.13725491, b: 0.15686275, a: 1}
   m_OnValueChanged:
