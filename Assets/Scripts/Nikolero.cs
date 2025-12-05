@@ -75,7 +75,7 @@ public class Nikolero : MonoBehaviour
 			string comment = comments[commentIndex];
 			comments.RemoveAt(commentIndex);
 			TMP_Text commentInstance = Instantiate(commentPrefab, commentSection);
-			commentInstance.text = $"<b><color=green>@{userName}:</color></b> <color=white>{comment}</color>";
+			commentInstance.text = $"<b><color=#E1306C>@{userName}:</color></b> <color=#D4E2F1>{comment}</color>";
 			yield return new WaitForSeconds(Random.Range(0.5f,1f));
 		}
 	}
