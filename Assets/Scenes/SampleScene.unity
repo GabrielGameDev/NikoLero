@@ -426,8 +426,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 14
-  m_fontSizeBase: 14
+  m_fontSize: 16
+  m_fontSizeBase: 16
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
@@ -515,8 +515,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -78, y: 39.9}
-  m_SizeDelta: {x: 450, y: 711.38}
+  m_AnchoredPosition: {x: -78, y: -50.062}
+  m_SizeDelta: {x: 450, y: 891.31}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &150789663
 MonoBehaviour:
@@ -1168,8 +1168,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 14
-  m_fontSizeBase: 14
+  m_fontSize: 16
+  m_fontSizeBase: 16
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
@@ -2069,13 +2069,13 @@ MonoBehaviour:
   m_text: Option A
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 95c1adc01b5441f4abbdd7308888f61b, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 1721607700335258778, guid: 95c1adc01b5441f4abbdd7308888f61b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278255422
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -2093,8 +2093,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 14
-  m_fontSizeBase: 16
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
@@ -2134,7 +2134,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &548400399
@@ -2531,7 +2531,7 @@ MonoBehaviour:
     - m_Text: Bolsonaro
       m_Image: {fileID: 0}
       m_Color: {r: 0.12941177, g: 0.13725491, b: 0.15686275, a: 1}
-    - m_Text: Eu
+    - m_Text: O Nikolas
       m_Image: {fileID: 0}
       m_Color: {r: 0.12941177, g: 0.13725491, b: 0.15686275, a: 1}
     - m_Text: A esquerda
@@ -2799,7 +2799,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1826341798}
         m_TargetAssemblyTypeName: Nikolero, Assembly-CSharp
-        m_MethodName: GenerateSentence
+        m_MethodName: RandomSentence
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5292,8 +5292,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 14
-  m_fontSizeBase: 16
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
@@ -6146,7 +6146,6 @@ RectTransform:
   - {fileID: 840062170}
   - {fileID: 675024299}
   - {fileID: 851852889}
-  - {fileID: 1922836058}
   m_Father: {fileID: 1775177388}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -6685,6 +6684,7 @@ RectTransform:
   - {fileID: 150789662}
   - {fileID: 15428740}
   - {fileID: 1696942759}
+  - {fileID: 1922836058}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -6831,6 +6831,7 @@ MonoBehaviour:
   - Esses.esquerdista.querer.fazer.quite.gay.nas.escolas.fora.comunistas
   videoPlayer: {fileID: 492299946}
   audioSource: {fileID: 1826341800}
+  totalComments: 16
 --- !u!4 &1826341799
 Transform:
   m_ObjectHideFlags: 0
@@ -7050,7 +7051,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1199991630}
-  m_Father: {fileID: 1696942759}
+  m_Father: {fileID: 1775177388}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -7103,7 +7104,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1826341798}
         m_TargetAssemblyTypeName: Nikolero, Assembly-CSharp
-        m_MethodName: GenerateSentence
+        m_MethodName: RestartScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

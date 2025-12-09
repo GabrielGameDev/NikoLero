@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Video;
+using UnityEngine.SceneManagement;
 
 public class Nikolero : MonoBehaviour
 {
@@ -24,6 +25,7 @@ public class Nikolero : MonoBehaviour
 	public VideoPlayer videoPlayer;
 	public AudioSource audioSource;
 
+	public int totalComments = 20;
 
 	private void Start()
 	{
@@ -66,7 +68,7 @@ public class Nikolero : MonoBehaviour
 	{
 		yield return new WaitForSeconds(0.5f);
 
-		for (int i = 0; i < 20; i++)
+		for (int i = 0; i < totalComments; i++)
 		{
 			int randomIndex = Random.Range(0, userNames.Count);
 			string userName = userNames[randomIndex];
@@ -78,6 +80,11 @@ public class Nikolero : MonoBehaviour
 			commentInstance.text = $"<b><color=#E1306C>@{userName}:</color></b> <color=#D4E2F1>{comment}</color>";
 			yield return new WaitForSeconds(Random.Range(0.5f,1f));
 		}
+	}
+
+	public void RestartScene()
+	{
+		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 	}
 
 }
